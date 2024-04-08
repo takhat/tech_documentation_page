@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  #navbar{
+    float: none;
+    width: auto;
+    padding:2rem;
+  }
+  #navbar ul
+  {
+  list-style-type: none;
+   padding:1rem;
+  }
+  #navbar a{
+  text-decoration:none;
+  }
+  #navbar ul li {
+  margin: 0.8em 0;  
+  padding-top:2px;
+  padding-bottom:0px;
+  border-bottom: 1.5px solid grey;
+  }
+  #main-doc{
+    padding:0rem 3rem;
+  }
+  
+  @media (min-width:780px){
+  
+    #navbar{
+      float:left;     
+       position:-webkit-sticky;
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  
+    }
+    #main-doc{
+      float:right;
+      position:relative;
+      margin-left:216px;  
+    }
+  }
